@@ -1,0 +1,11 @@
+python account_service_test.py
+python adgroup_service_test.py
+python campaign_service_test.py
+python creative_service_test.py
+python dynamic_creative_service_test.py
+python keyword_service_test.py
+python new_creative_service_test.py
+python report_service_test.py
+python toolkit_service_test.py
+python kr_service_test.py
+python bulkjob_service_test.py
