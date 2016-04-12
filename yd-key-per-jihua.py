@@ -5,6 +5,7 @@ import string
 import requests
 import hashlib
 import xlwt
+import sys
 
 from ApiSDKJsonClient import *
 from sms_service_AccountService import *
@@ -201,9 +202,11 @@ account_id = account_info['account_id']
 #
 # for 一点资讯
 #
+start_date = sys.args[1]
+print start_date
 start_date = "2016-04-11"
 filename = 'output/一点资讯-%s-安卓-驾考-安卓-美食.xls' % start_date
 jihua_id_list = [56366383, 56775408]
-rv = get_word_for_jihua_xls(account_id, jihua_id_list, start_date, filename)
-print start_date,'---',rv,filename
+#rv = get_word_for_jihua_xls(account_id, jihua_id_list, start_date, filename)
+#print start_date,'---',rv,filename
 
